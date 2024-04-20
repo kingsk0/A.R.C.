@@ -4,13 +4,13 @@ import java.io.*;
 public class EchoMultiServer {
     private ServerSocket serverSocket;
 
-    public void start(int port) {
+    public void start(int port) throws IOException {
         serverSocket = new ServerSocket(port);
         while (true)
             new EchoClientHandler(serverSocket.accept()).start();
     }
 
-    public void stop() {
+    public void stop() throws IOException {
         serverSocket.close();
     }
 
@@ -24,21 +24,42 @@ public class EchoMultiServer {
         }
 
         public void run() {
-            out = new PrintWriter(clientSocket.getOutputStream(), true);
-            in = new BufferedReader(
-              new InputStreamReader(clientSocket.getInputStream()));
+            try {
+                out = new PrintWriter(clientSocket.getOutputStream(), true);
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            try {
+                in = new BufferedReader(
+                  new InputStreamReader(clientSocket.getInputStream()));
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             
             String inputLine;
-            while ((inputLine = in.readLine()) != null) {
-                if (".".equals(inputLine)) {
-                    out.println("bye");
-                    break;
+            try {
+                while ((inputLine = in.readLine()) != null) {
+                    if (".".equals(inputLine)) {
+                        out.println("bye");
+                        break;
+                    }
+                    out.println(inputLine);
                 }
-                out.println(inputLine);
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
             }
 
-            in.close();
+            try {
+                in.close();
+                clientSocket.close();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             out.close();
-            clientSocket.close();
+        }
     }
 }
