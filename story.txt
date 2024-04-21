@@ -1,0 +1,104 @@
+plot: mario enters into glitched multiverse of games and tries to fix it;
+
+//to add snake,pokemon
+
+Intro cutscene:
+    flappy bird flying into the game(cinematic zoom effect)
+    and after one try player stops playing to speak(irl).
+    Meanwhile the bird keeps falling again and again,after some time there is a rage bar that appears into the game
+    flappy bird transforms into angry bird and starts creating havoc,breaking pipes.
+    
+    Meanwhile,mario was about to kill bowser but glitches into different games and lands into tetris.
+    Mario breaks 4th wall and says that he needs to save peach but first he need to find the cause and stop this glitch,
+    for this he needs some help so get a friend or enemy to help. 
+
+main screen to choose to watch story(goto Intro), host , client
+    mario asks to choose what to control 
+    -Mario(p1)
+    -Suprise(Games)(p2)
+
+main game starts:
+    tetris: 
+        p2:blocks to climb
+        mario says he sees an exit at the top 
+        Objective:Reach the top(without smashing mario)
+
+    after reaching top mario finds himself in a maze 
+
+    maze:
+        p2:light up the maze(proximity light)
+        Objective: find path to center
+    
+    glitches into pacman universe 
+
+    pacman:
+        p2:pacman
+        pacman gets scared by seeing mario (what an something pacman isnot scared of ghost bot of mario).
+        He says help me and i will help You.
+        Objective:Collect all orbs
+
+    after collecting orbs pacman says that this glitches are because of destruction caused by flappy(angry bird).
+    be careful with the bird do not ... you will need to .....
+    mario glitches away into mario world (a lot of glitches like dr.strange mom (hillclimb, mariocart,))
+    p1 takes him into pipe where he exits into broken flappybird world
+    he gltiches again back to tetris where there is a dragon 
+
+    tetris:
+        p2:blocks
+        dragon is attacking mario 
+        Objective:defend mario with blocks and attack dragon
+
+    attack him angers him more
+    after getting some damage the dragon attacks the wifi sign below because of which it seems p2 is tring to reconect
+    now mario is cornered by dragon but suddenly glitch causes dino to appear which saves mario.
+    Meanwhile p2 gets connected back and gets access of the dino.
+    glitch causes entire dino game to appear .
+    the bird says lets see how long can you survive
+
+    dino:
+        p2:dinosaur
+        Objective:Survive
+
+        few moment later glitches of jetpack joyride gives mario jetpack
+        dragon starts attacking in air for mario its dodge both
+
+    dragon:says nice
+    some time later glitches into piano tile 
+
+    piano tiles:
+        p1:moves mario, p2: jumps??or dino in more complex tunes
+        Objective:survive and soothe bird 
+        this drops rage barand dragon transforms into angry bird.
+
+    gltiches into tower stack 
+
+    stack:
+        p1:jumps ,p2:stacks
+        Objective:stack few nice shots
+        this helps angry bird calm down to flappybird
+
+    game gltiches to broken flappybird , bird is sad after seeing the destroyed home
+    mario says player will help fix this dont worry
+
+    Jigsaw puzzle:
+        p1:mario moves pieces p2:mouse moves pieces
+        Objective:complete the puzzle
+
+    he says you guys seem great gamer since your childhood 
+    will you help me reach the end of the bird world
+
+    p1 and p2 chooses from
+    -sure
+    -will try our best
+    -sry maybe find someone else
+    -(speak truth)there is no end to your world(result is fun but not as fun as the process before it)
+
+    o1-falling causes restarting the game(retry)
+    o2-falling causes mario to tell the truth(win)
+    o3-sadly bird goes away game seems to end but mario says you hurted that bird 
+    but not to worry you have greatest power
+    the power to try again with better outcome(retry)
+    o4-bird understands and stay happy(win)
+    mario returns through pipe and the game fades off to credits
+
+    to add snake,pokemon
